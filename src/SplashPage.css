@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'JurassicPark';
+    src: url('./JurassicPark.ttf') format('truetype');
+  }
+  
+  .splash-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 100vh;
+    background: url('./real.png') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  .background-image {
+    display: none;
+  }
+  
+  .button-container {
+    position: absolute;
+    bottom: 13%; /* Moved 20 pixels down */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .enter-button {
+    font-family: 'JurassicPark', sans-serif;
+    font-size: 48px; /* 2x bigger */
+    padding: 20px 40px; /* 2x bigger */
+    color: black;
+    background: white;
+    border: 2px solid black;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .enter-button:hover {
+    background: black;
+    color: white;
+  }
+  
+  .quote {
+    position: absolute;
+    bottom: 5%; /* Adjusted to accommodate moved button */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px; /* 2x bigger */
+    font-weight: bold;
+    width: 80%;
+    text-align: center;
+  }
+  

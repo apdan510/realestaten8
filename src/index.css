@@ -1,0 +1,42 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'JurassicPark';
+  src: url('./JurassicPark.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.title {
+  font-family: 'JurassicPark', sans-serif;
+  font-size: 5rem; /* Adjust the size as needed */
+  color: pink; /* Fill color */
+  -webkit-text-stroke: 1px blue; /* Adjust the stroke width and color as needed */
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.bottom-right-image {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 15%; /* Adjust size to make it 3x bigger */
+  height: auto;
+}

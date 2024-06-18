@@ -1,0 +1,72 @@
+/* src/InfoPage.css */
+.info-page-container {
+    position: relative;
+    min-height: 120vh; /* Increase viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10rem; /* Add space for footer */
+  }
+  
+  .fixed-image {
+    position: fixed;
+    bottom: 10px; /* Adjust as necessary */
+    right: 10px;  /* Adjust as necessary */
+    width: 30%; /* Adjust the size as necessary */
+    height: auto;
+    z-index: 10;  /* Ensure it stays on top */
+    pointer-events: none; /* Prevent clicking */
+  }
+  
+  .jurassic-park {
+    font-family: 'JurassicPark';
+    font-size: 12rem; /* Adjust size */
+    color: #FF69B4; /* Pink color */
+    text-shadow: -2px -2px 0 #00BFFF, 2px -2px 0 #00BFFF, -2px 2px 0 #00BFFF, 2px 2px 0 #00BFFF; /* Blue shadow */
+    text-align: center;
+    margin-bottom: -2rem; /* Adjust margin to reduce space */
+  }
+  
+  .subtitle {
+    font-size: 2rem; /* Adjust size for subtitle */
+    color: #000; /* Black color */
+    text-align: center;
+    margin-top: 0; /* Remove margin to hug the title */
+  }
+  
+  .contact-info {
+    text-align: center;
+    margin-top: 2rem; /* Adjust spacing */
+  }
+  
+  .contact-info div {
+    margin-top: 1rem; /* Adjust spacing between contact details */
+  }
+  
+  .anchor-logo {
+    width: 10%; /* Adjust the size to make it smaller */
+    height: auto;
+    margin: 2rem auto 2rem calc(50% - 5% + 10px); /* Center the logo and add spacing, move 10px to the right */
+  }
+  
+  .footer {
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .footer-text {
+    font-size: 1.2rem; /* Adjust size */
+    color: #000; /* Black color */
+    margin: 0.2rem 0; /* Adjust spacing */
+  }
+  
+  .keller-watermark {
+    position: fixed;
+    bottom: 10px; /* Adjust as necessary */
+    left: 10px;  /* Adjust as necessary */
+    width: 20%; /* Adjust the size of the watermark */
+    height: auto;
+    z-index: 10;  /* Ensure it stays on top */
+  }
+  
